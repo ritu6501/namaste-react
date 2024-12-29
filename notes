@@ -1,0 +1,29 @@
+Transitive dependencies :- when dependencies have their own dependencies
+npm and npx :- if you want to install a package then npm, and if you want to execute a package then npx
+Parcel
+ -Dev Build
+ -Local Server
+ -HMR - hot module replacement
+ -FIle Watching algorithm - written in c++
+ -Caching - Faster Builds
+ -Image optimisation
+ -Minification
+ -Bundling
+ -Compressing
+ -Consistent hashing
+ -Code splitting
+ -Differential Bundling - support older browser
+ -Diagnostic
+ -Error handling
+ -HTTPs
+ -Tree Shaking - remove unused code
+ -Different dev and prod build -- remove app.js from package.json before creating the build, it will give error
+
+Babel converts the JSX code into react element
+
+2 ways of creating react component
+ - Functional component - NEW
+ - Class based component -OLD
+
+Component composition - using 1 component in another
+JSX sanitize the data - anything comes in {} in jsx will get automatically sanitized, it prevent corss site scripting
