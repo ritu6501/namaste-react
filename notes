@@ -27,3 +27,7 @@ Babel converts the JSX code into react element
 
 Component composition - using 1 component in another
 JSX sanitize the data - anything comes in {} in jsx will get automatically sanitized, it prevent corss site scripting
+
+
+Config driven UI
+never use index as key
